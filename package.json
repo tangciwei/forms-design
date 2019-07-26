@@ -1,0 +1,26 @@
+{
+  "name": "forms-design",
+  "version": "0.0.0",
+  "description": "表单设计",
+  "main": "dist/forms-design.js",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "docs": "npx typedoc --out ./docs ./src/index.ts ./src/type.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tangciwei/forms-design.git"
+  },
+  "keywords": [
+    "表单设计"
+  ],
+  "author": "tangciwei",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.3",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1"
+  }
+}
